@@ -1,0 +1,156 @@
+                                                                                                                                                            xzzzzz/
+
+*/ Saige Neyenhuis/*
+ 
+/* IMPORTED FONTS */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+ /* CSS RESET */
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+/*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    font-family: srf
+}
+ol, ul {
+	list-style: c
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+:root{
+    --teal :#4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57; 
+    --pink:#D9526F;
+    --dk-gray:#1E1E1E; 
+    --white:#ffffff; 
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+
+
+body{
+    max-width: 450px;
+    background-color: var(--lavender);
+    margin: auto;
+}
+
+nav h2{
+    background :1.5em;
+    background-color: var(--white);
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    color: var(--purple);
+}
+
+
+h1  h2{
+    font-family: kavoon;
+}
+    
+h1{
+    background :3em;
+    text-align: center;
+    color: var(--white);
+    }
+
+h1 p{
+    color: var(--white);
+    text-align: center;
+}
+.menu h2{
+    color: var(--dk-gray);
+    text-align: center;
+}
+
+.menu{
+    background-color: var(--yellow);
+}
+
+h2{
+    background :2em;
+    color:var(--white)
+
+}
+h3{
+    background :1.5em;
+    font: inter;
+    color: var(--yellow);
+}
+
+h4{
+    background :1.15em;
+    color: var(--purple);
+
+}
+
+table {
+    border: 2px solid #eee;
+}
+
+#step{
+    background-color: var(--pink);
+}
+
+#step a{
+    text-align: center;
+}
+
+#services {
+    background-color: var(--purple);
+}
+ 
+#choose {
+    background-color: var(--pink);
+}
+
+table {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
